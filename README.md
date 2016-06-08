@@ -2,7 +2,7 @@
 
 Built with Apostrophe. See below for links to Docs.
 
-To compile css styles in `/public/styles` run `gulp build` in production or `gulp watch` in development
+To compile css styles in `/public/css` run `gulp build` in production or `gulp watch` in development
 
 Then run `npm start` to start the server and navigate to `localhost:4000`.
 
