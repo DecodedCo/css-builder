@@ -925,6 +925,18 @@ td {
 }
 /*
  *
+ * JG 08/06/2016
+ * I added this rule to force equal height for all direct
+ * children of a row
+ *
+ */
+.row > * {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*
+ *
  * http://flexboxgrid.com/
  *
  */
@@ -2336,11 +2348,17 @@ hr {
   height: 18.24px;
   height: 1.14rem;
 }
-.header-brand {
-  width: 150px;
-  float: right;
-  margin: -59.2px 0 21.44px 0;
-  margin: -3.7rem 0 1.34rem 0;
+.c-site-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+
+  background: white;
+  padding: 16px;
+  padding: 1rem;
+  box-shadow: 1px 1px 1px rgb(242,241,239);
+
 }
 .nav {
   padding: 0;
@@ -2493,10 +2511,24 @@ hr {
   border-radius: 2px 2px 0 0;
   border: solid 1px rgb(242,241,239);
 }
+.c-card:hover {
+  box-shadow: 1px 1px 1px rgb(242,241,239);
+}
 .c-card .c-block-text {
   padding: 16px;
   padding: 1rem;
 }
+/*
+
+  .c-cover-image
+
+  This series of classes style a css background-image to
+  display in a variety of different ways.
+
+  The image should be defined using a style attribute on the
+  element itself.
+
+*/
 .c-cover-image,
 .c-cover-image--cover {
   background-position: 50%;
@@ -2510,6 +2542,12 @@ hr {
 }
 .c-cover-image {
 }
+/*
+
+  This will resize the image to cover the entire area
+  of it's parent element
+
+*/
 .c-cover-image--cover {
   background-size: cover;
 }

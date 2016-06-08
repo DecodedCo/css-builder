@@ -1,0 +1,11 @@
+.c-site-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+
+  background: white;
+  padding: var(--scale-M)rem;
+  box-shadow: 1px 1px 1px var(--color-grey-light);
+
+}

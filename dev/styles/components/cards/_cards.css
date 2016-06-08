@@ -3,6 +3,10 @@
   border: solid 1px var(--color-grey-light);
 }
 
+.c-card:hover {
+  box-shadow: 1px 1px 1px var(--color-grey-light);
+}
+
 .c-card .c-block-text {
   padding: var(--spacing);
 }

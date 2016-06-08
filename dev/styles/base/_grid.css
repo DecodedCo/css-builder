@@ -1,5 +1,16 @@
 /*
  *
+ * JG 08/06/2016
+ * I added this rule to force equal height for all direct
+ * children of a row
+ *
+ */
+.row > * {
+  display: flex;
+}
+
+/*
+ *
  * http://flexboxgrid.com/
  *
  */
