@@ -57,6 +57,9 @@
         --scale-XXXL: 3.7;
         --scale-XXXXL: 6.7;
 
+    /* layout */
+        --max-width: 60em;
+
     /* margins and spacing */
         --spacing-S: var(--scale-XS)rem;
         --spacing: var(--scale-M)rem;

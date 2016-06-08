@@ -7,6 +7,7 @@
 @import "base/_grid.css";
 @import "base/_helpers.css";
 @import "base/_colors.css";
+@import "base/_layout.css";
 
 /* components */
 @import "./components/index.css";

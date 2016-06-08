@@ -1,0 +1,5 @@
+.u-wrapper {
+    padding: 1em;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
