@@ -7,12 +7,14 @@ var postcss = require('gulp-postcss');
 var cssnext = require('postcss-cssnext');
 var fontMagician = require('postcss-font-magician');
 var postcssImport = require('postcss-import');
+var postcssSimpleExtend = require('postcss-simple-extend');
 
 
 module.exports = function () {
     return gulp.src(global.config.cssDir + '/*.css')
         .pipe(postcss([
           postcssImport(),
+          postcssSimpleExtend(),
           cssnext({
               autoprefixer: {
                 add: true,
