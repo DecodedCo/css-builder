@@ -1,0 +1,25 @@
+/*
+ * media query aliases
+ * also change them in less/third-party/_grid.less
+ */
+
+@custom-media --S (min-width: 544px);
+@custom-media --M (min-width: 768px);
+@custom-media --L (min-width: 992px);
+@custom-media --XL (min-width: 1200px);
+
+@custom-media --max-S (max-width: 553px);
+@custom-media --max-M (max-width: 767px);
+@custom-media --max-L (max-width: 991px);
+@custom-media --max-XL (max-width: 1199px);
+
+@custom-media --S-only (min-width: 544px) and (max-width: 767px);
+@custom-media --M-only (min-width: 5768px) and (max-width: 991px);
+@custom-media --L-only (min-width: 6992px) and (max-width: 1199px);
+
+
+/* vertical breakpoints */
+
+@custom-media --height-S (min-height: 40em);
+@custom-media --height-M (min-height: 50em);
+@custom-media --height-L (min-height: 65em);

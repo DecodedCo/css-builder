@@ -1,0 +1,74 @@
+/* variables */
+:root {
+    /* fonts */
+        --font-sans: "Source Sans Pro", Helvetica, sans-serif;
+        --font-serif: "Source Serif Pro", serif;
+
+        --sans-normal: 300;
+        --sans-bold: 600;
+
+        --serif-normal: 600;
+
+    /* colours */
+        --color-white: #FEFEFE;
+        --color-black: #333333;
+
+        --color-grey-darker: rgb(37,37,37);
+        --color-grey-darker-alpha: rgba(37,37,37, .4);
+        --color-grey-dark: rgb(83,80,75);
+        --color-grey-dark-alpha: rgba(83,80,75,.4);
+        --color-grey-medium: rgb(186,184,176);
+        --color-grey-medium-alpha: rgba(186,184,176,.5);
+        --color-grey-light: rgb(242,241,239);
+        --color-grey-light-alpha: rgba(242,241,239,.5);
+
+        --color-yellow: rgb(254, 248, 0);
+        --color-yellow-light: rgb(254,248,127);
+
+        --color-green: rgb(46,204,133);
+        --color-blue:  rgb(52,141,204);
+        --color-red:   rgb(231,76,60);
+        --color-orange:rgb(243,146,15);
+        --color-pink:  rgb(249,58,142);
+        --color-purple:rgb(140,86,182);
+
+        --color-green-light: rgb(192,227,139);
+        --color-blue-light:  rgb(127,195,225);
+        --color-red-light:   rgb(253,158,127);
+        --color-orange-light:rgb(255,202,128);
+        --color-pink-light:  rgb(252,131,179);
+        --color-purple-light:rgb(171,127,193);
+
+    /* transitions */
+        --transition-time: 0.25s;
+
+    /* Buttons & Forms*/
+        --form-border-width: 1px;
+        --form-disabled-opacity: 0.6;
+        --form-padding: 0.4em 0.75em;
+
+    /* Decoded Scale */
+        --scale-XS: 0.6;
+        --scale-S: 0.83;
+        --scale-M: 1;
+        --scale-L: 1.14;
+        --scale-XL: 1.34;
+        --scale-XXL: 2.3;
+        --scale-XXXL: 3.7;
+        --scale-XXXXL: 6.7;
+
+    /* margins and spacing */
+        --spacing-S: var(--scale-XS)rem;
+        --spacing: var(--scale-M)rem;
+        --spacing-L: var(--scale-L)rem;
+        --spacing-XL: var(--scale-XXL)rem;
+
+    /* z-index scale */
+        --z-overlay:5;
+        --z-nav: 4;
+        --z-sidebar:3;
+        --z-content-top:2;
+        --z-content-mid:1;
+        --z-content-low:0;
+        --z-background:-1;
+}

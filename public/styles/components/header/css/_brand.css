@@ -1,0 +1,5 @@
+.header-brand {
+  width: 150px;
+  float: right;
+  margin: -var(--scale-XXXL)rem 0 var(--scale-XL)rem 0;
+}
