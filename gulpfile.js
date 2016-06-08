@@ -4,7 +4,7 @@ var util = require('util');
 
 var c = global.config = {};
 
-c.siteDir = './public';
+c.siteDir = './dev';
 c.outputDir = './public';
 
 c.cssDir = util.format('%s/styles', c.siteDir);
