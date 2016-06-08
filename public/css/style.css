@@ -1863,3 +1863,11 @@ td {
     .Btn.active:active {
         color: rgb(46,204,133);
     }
+.c-card {
+  border-radius: 2px 2px 0 0;
+  border: solid 1px rgb(242,241,239);
+}
+.c-card .c-block-text {
+  padding: 16px;
+  padding: 1rem;
+}

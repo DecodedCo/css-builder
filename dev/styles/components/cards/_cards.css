@@ -1,0 +1,8 @@
+.c-card {
+  border-radius: 2px 2px 0 0;
+  border: solid 1px var(--color-grey-light);
+}
+
+.c-card .c-block-text {
+  padding: var(--spacing);
+}
