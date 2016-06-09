@@ -1,13 +1,71 @@
+/*
+ * Notes from JG 09/06/16
+ *
+ * This CSS is trying to adhere to namespacing to make it clear what the function
+ * of each class is. For example:
+ *
+ *  .js-    Signifies that this piece of the DOM has some behaviour acting
+ *          upon it, and that JavaScript binds onto it to provide that
+ *          behaviour. If you’re not a developer working with JavaScript, leave
+ *          these well alone.
+ *
+ *  .c-     Signifies that something is a Component. This is a concrete,
+ *          implementation-specific piece of UI. All of the changes you make to
+ *          its styles should be detectable in the context you’re currently
+ *          looking at. Modifying these styles should be safe and have no side
+ *          effects.
+ *
+ *  .u-     Signifies that this class is a Utility class. It has a very specific
+ *          role (often providing only one declaration) and should not be bound
+ *          onto or changed. It can be reused and is not tied to any specific
+ *          piece of UI. You will probably recognise this namespace from libraries
+ *          and methodologies like SUIT.
+ *
+ *          Read more at http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/
+ *
+ *
+ *  PARTIALS INDEX
+ *  --------------
+ *
+ *  BASE STYLES
+ *  _reset.................Normalize, box-sizing & font smoothing
+ *  _variables.............All project variables defined
+ *  _media-queries.........Breakpoint aliases
+ *  _base-elements.........Base stylings for html elements eg. <hr>
+ *  _media.................Responsive rules for img element
+ *  _typography............Decoded typography styles
+ *  _grid..................A responsive, flexbox driven grid
+ *  _helpers...............Collection of helper classes
+ *  _layout................Page wrappers, containers etc
+ *
+ *
+ *  VENDOR CSS
+ *  ----------
+ *  _pushy.................Default styles for the '.c-page-nav menu'
+ *  _pushy-customizations..Additions to default styles
+ *
+ *
+ *  COMPONENTS
+ *  ----------
+ *  _page-structure........Establishing the layout of the page
+ *  _site-header...........Styles for the header
+ *  _cards.................Styles for cards
+ *  _cover-image...........Options for creating a cover image using background-image
+ *  _hero-image............A full width banner image
+ *  _glossary..............Styles for the glossary tab
+ *  _autocomplete..........Styles for the autocomplete field in the glossary
+ *
+ */
+
 /* base */
 @import "base/_reset.css";
 @import "base/_variables.css";
 @import "base/_media-queries.css";
-@import "base/_responsive-helpers.css";
+@import "base/_base-elements.css";
 @import "base/_media.css";
 @import "base/_typography.css";
 @import "base/_grid.css";
 @import "base/_helpers.css";
-@import "base/_colors.css";
 @import "base/_layout.css";
 
 /* vendor */
@@ -15,4 +73,11 @@
 @import "vendor/_pushy-customizations.css";
 
 /* components */
-@import "./components/index.css";
+@import "components/page-structure/_page-structure";
+@import "components/header/_site-header";
+@import "components/cards/_cards";
+@import "components/media/_cover-image";
+@import "components/media/_hero-image";
+@import "components/media/_thumbnail-image";
+@import "components/search/_glossary";
+@import "components/search/_autocomplete";

@@ -1,3 +1,16 @@
+.o-media {
+  display: flex;
+  align-items: flex-start;
+}
+
+.o-media-figure {
+  margin-right: 1em;
+}
+
+.o-media-body {
+  flex: 1;
+}
+
 img {
   width: 100%;
   height: auto;

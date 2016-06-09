@@ -1,16 +1,44 @@
-/*
- * Flexbox utility helper classes
+/**
+ * INDEX
  *
+ * 1. Flexbox..........Some general flexbox options
+ * 2. Visbility........Ways to hide objects
+ * 3. Layout...........Floats & Clearfix
+ * 4. Spacing..........Margins & Padding
  */
 
- .u-flex--between {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
- }
 
-/*
- * Hide visually and from screen readers:
+
+
+/**
+ * 1.Flexbox
+ * ---------
+ */
+
+/* Creates a flex object which justifies it's contents by space-between
+ * and vertically aligns them centrally.
+ */
+.u-flex--between-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.u-flex--between-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+
+
+/**
+ * 2. Visibility
+ * -------------
+ */
+
+/* Hide visually and from screen readers:
  * http://juicystudio.com/article/screen-readers-display-none.php
  */
 
@@ -19,8 +47,7 @@
     visibility: hidden;
 }
 
-/*
- * Hide only visually, but have it available for screen readers:
+/* Hide only visually, but have it available for screen readers:
  * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  */
 
@@ -59,6 +86,14 @@
     visibility: hidden;
 }
 
+
+
+
+/**
+ * 3. Layout
+ * ---------
+ */
+
 /*
  * Clearfix: contain floats
  *
@@ -93,8 +128,16 @@
     float: left;
 }
 
-/*
- * Margin helpers
+
+
+
+
+/**
+ * 4. Spacing
+ * ----------
+ */
+
+/* Margin helpers
  */
 
  .noMargin {
@@ -257,8 +300,8 @@
      .margin-left-XXXXL {
         margin-left: var(--scale-XXXXL)rem !important;
      }
-/*
-* Padding helpers
+
+/* Padding helpers
 */
 
 .noPadding {

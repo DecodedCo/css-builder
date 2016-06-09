@@ -1,8 +1,3 @@
-/*
- * media query aliases
- * also change them in less/third-party/_grid.less
- */
-
 @custom-media --S (min-width: 544px);
 @custom-media --M (min-width: 768px);
 @custom-media --L (min-width: 992px);

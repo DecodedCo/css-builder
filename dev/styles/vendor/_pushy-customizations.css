@@ -1,24 +1,33 @@
+/* Change the background colour of the nav
+ */
 .pushy {
   background: var(--color-grey-darker);
 }
 
+/* Smaller & centrally justified header
+ */
 .pushy h3 {
     font-size: 1em;
     text-align: center;
 }
 
+/* Remove top margin from the ordered list
+ */
 .pushy ol:first-child {
     margin-top: 0;
 }
 
+/* Make the list full width, and style numbered list style
+ */
 .c-pushy-menu-list {
     width: 100%;
     padding-left: 2em;
     list-style-type: decimal;
-    list-style-type: decimal;
     color: var(--color-grey-medium);
 }
 
+/* Style the 'back' link at the top of the nav
+ */
 .c-back-link {
   background: black;
   text-align: center;

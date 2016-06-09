@@ -1,3 +1,5 @@
+/* Stylings for the autocomplete results
+ */
 .autocomplete-suggestions {
   border: 1px var(--color-grey-light) #999;
   background: white;

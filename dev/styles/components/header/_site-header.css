@@ -1,3 +1,5 @@
+/* Base styles for the header
+ */
 .c-site-header {
 
   width: 100%;
@@ -16,12 +18,16 @@
   }
 
 
-
+/* '.sticky' class is appended to '.c-site-header' when the page scrolls past
+ * '.js-main-content' - see sticky-header.js
+ */
 .c-site-header.sticky {
    position: fixed;
    top: 0;
 }
 
+/* Custom typography stylings in the header
+ */
 .c-site-header h1 {
   margin: 0;
 }

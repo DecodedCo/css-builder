@@ -1,15 +1,14 @@
 /*
+ * This series of classes style a css background-image to
+ * display in a variety of different ways.
+ *
+ * The image should be defined using a style attribute on the
+ * element itself.
+ */
 
-  .c-cover-image
 
-  This series of classes style a css background-image to
-  display in a variety of different ways.
-
-  The image should be defined using a style attribute on the
-  element itself.
-
-*/
-
+/* Base cover-image styles
+ */
 @define-placeholder c-cover-image {
   background-position: 50%;
   background-repeat: no-repeat;
@@ -21,16 +20,15 @@
   border-bottom: solid 1px var(--color-grey-light);
 }
 
+/* This will display the image 100% height keeping the width proportional
+ */
 .c-cover-image {
   @extend c-cover-image;
 }
 
-/*
-
-  This will resize the image to cover the entire area
-  of it's parent element
-
-*/
+/* This will resize the image to cover the entire area of it's parent element,
+ * which is 300px high
+ */
 .c-cover-image--cover {
   @extend c-cover-image;
   background-size: cover;

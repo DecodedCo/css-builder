@@ -4,270 +4,378 @@
   font-weight: 200;
   src: local("Source Code Pro ExtraLight"),local(SourceCodePro-ExtraLight),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqVl_EbE5kujbLzdX6sKqH6g.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqSVh0V6fR69OLaFLklYbiSk.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqca9awK0IKUjIWABZIchFI8.woff) format("woff");
 }
+
 @font-face {
   font-family: "Source Code Pro";
   font-style: normal;
   font-weight: 300;
   src: local("Source Code Pro Light"),local(SourceCodePro-Light),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqRlTL9oEQvYTI0YAW1-Ysv0.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqeode0-EuMkY--TSyExeINg.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqdbE_oMaV8t2eFeISPpzbdE.woff) format("woff");
 }
+
 @font-face {
   font-family: "Source Code Pro";
   font-style: normal;
   font-weight: 400;
   src: local("Source Code Pro"),local(SourceCodePro-Regular),url(//fonts.gstatic.com/s/sourcecodepro/v6/mrl8jkM18OlOQN8JLgasD90tugusXa58UbOrParLRF0.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcecodepro/v6/mrl8jkM18OlOQN8JLgasD9V_2ngZ8dMf8fLgjYEouxg.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcecodepro/v6/mrl8jkM18OlOQN8JLgasDxM0YzuT7MdOe03otPbuUS0.woff) format("woff");
 }
+
 @font-face {
   font-family: "Source Code Pro";
   font-style: normal;
   font-weight: 500;
   src: local("Source Code Pro Medium"),local(SourceCodePro-Medium),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqW98Vd-2iqmUspkFPu1BpxQ.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqUHj7CJK1I4bLnYZkMY-kd4.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqe_puumMoxhiakHfBfLgHWs.woff) format("woff");
 }
+
 @font-face {
   font-family: "Source Code Pro";
   font-style: normal;
   font-weight: 600;
   src: local("Source Code Pro Semibold"),local(SourceCodePro-Semibold),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqdanmHNzStikJN_FjplbBik.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqSOFnW3Jk0f09zW_Yln67Ac.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqZ6-ys_j0H4QL65VLqzI3wI.woff) format("woff");
 }
+
 @font-face {
   font-family: "Source Code Pro";
   font-style: normal;
   font-weight: 700;
   src: local("Source Code Pro Bold"),local(SourceCodePro-Bold),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqVV89XnfCtb1fhQGOlhyqi8.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqUo0As1BFRXtCDhS66znb_k.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqVkQc6VGVFSmCnC_l7QZG60.woff) format("woff");
 }
+
 @font-face {
   font-family: "Source Code Pro";
   font-style: normal;
   font-weight: 900;
   src: local("Source Code Pro Black"),local(SourceCodePro-Black),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqSDZg7i-e40o9FYYiSpZxAc.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqXZhYM0_6AejPZE-OqA592o.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqXiec-hVyr2k4iOzEQsW1iE.woff) format("woff");
 }
+
 @font-face {
   font-family: "Source Serif Pro";
   font-style: normal;
   font-weight: 400;
   src: local("Source Serif Pro"),local(SourceSerifPro-Regular),url(//fonts.gstatic.com/s/sourceserifpro/v4/CeUM4np2c42DV49nanp55dwwSDTi-fDnWEQ0aekUnZc.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourceserifpro/v4/CeUM4np2c42DV49nanp55fETq2ZMMnErnN6OL83eMrU.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourceserifpro/v4/CeUM4np2c42DV49nanp55S0XUiYNEUS_1eNN5dXyLEY.woff) format("woff");
 }
+
 @font-face {
   font-family: "Source Serif Pro";
   font-style: normal;
   font-weight: 600;
   src: local("Source Serif Pro Semibold"),local(SourceSerifPro-Semibold),url(//fonts.gstatic.com/s/sourceserifpro/v4/yd5lDMt8Sva2PE17yiLarHo8hm0aQo1dxoxDXJjFlEo.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourceserifpro/v4/yd5lDMt8Sva2PE17yiLarEx5mkwPDa2CKboOHRYrmUg.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourceserifpro/v4/yd5lDMt8Sva2PE17yiLarAk370W3Yxr-KCHs3QlH2lQ.woff) format("woff");
 }
+
 @font-face {
   font-family: "Source Serif Pro";
   font-style: normal;
   font-weight: 700;
   src: local("Source Serif Pro Bold"),local(SourceSerifPro-Bold),url(//fonts.gstatic.com/s/sourceserifpro/v4/yd5lDMt8Sva2PE17yiLarHGHMFftXZ5-UIRCa1apJEU.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourceserifpro/v4/yd5lDMt8Sva2PE17yiLarPgHLTi6vdOOFgNDwEC6JgI.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourceserifpro/v4/yd5lDMt8Sva2PE17yiLarEdEMi6hVZBf-Q2vYVxUiSc.woff) format("woff");
 }
+
 @font-face {
   font-family: "Source Sans Pro";
   font-style: italic;
   font-weight: 200;
   src: local("Source Sans Pro ExtraLight Italic"),local(SourceSansPro-ExtraLightIt),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6CPAIRw3TZpZEbtNzDM7Nlo.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6GLvoADUPo08d8_TfMCzMpg.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6PwwJPUC4r0o28cUCbhjOjM.woff) format("woff");
 }
+
 @font-face {
   font-family: "Source Sans Pro";
   font-style: italic;
   font-weight: 300;
   src: local("Source Sans Pro Light Italic"),local(SourceSansPro-LightIt),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6Ffv2gilBNcWxh_XnzykpgY.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6MAjkyiewWYrWZc50I8hK7I.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6GGomRtBD2u8FwSY4jjlmeA.woff) format("woff");
 }
+
 @font-face {
   font-family: "Source Sans Pro";
   font-style: italic;
   font-weight: 400;
   src: local("Source Sans Pro Italic"),local(SourceSansPro-It),url(//fonts.gstatic.com/s/sourcesanspro/v9/M2Jd71oPJhLKp0zdtTvoM04EkD-uilk0_oIxFXvMtLk.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcesanspro/v9/M2Jd71oPJhLKp0zdtTvoMxgy2Fsj5sj3EzlXpqVXRKo.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcesanspro/v9/M2Jd71oPJhLKp0zdtTvoMzNrcjQuD0pTu1za2FULaMs.woff) format("woff");
 }
+
 @font-face {
   font-family: "Source Sans Pro";
   font-style: italic;
   font-weight: 600;
   src: local("Source Sans Pro Semibold Italic"),local(SourceSansPro-SemiboldIt),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6EbumxWHRSe1oVyAWeloI5o.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6GQKuzMuncr0JB710wa2dPI.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6PULlOK_XQENnt2ryrY843E.woff) format("woff");
 }
+
 @font-face {
   font-family: "Source Sans Pro";
   font-style: italic;
   font-weight: 700;
   src: local("Source Sans Pro Bold Italic"),local(SourceSansPro-BoldIt),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6HXzH4U_Axe6qCclt7v7nW0.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6Nnl6YROR5rHLkdLoHwoOWA.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6Nog-We9VNve39Jr4Vs_aDc.woff) format("woff");
 }
+
 @font-face {
   font-family: "Source Sans Pro";
   font-style: italic;
   font-weight: 900;
   src: local("Source Sans Pro Black Italic"),local(SourceSansPro-BlackIt),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6JbSLHYK2KPWJI4XZKReQz0.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6Kixy-5gtMP3-zP8S1pobIg.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6ONg1gFYvjbPSGxSBhvPu6E.woff) format("woff");
 }
+
 @font-face {
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 200;
   src: local("Source Sans Pro ExtraLight"),local(SourceSansPro-ExtraLight),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGFl_EbE5kujbLzdX6sKqH6g.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGCVh0V6fR69OLaFLklYbiSk.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGMa9awK0IKUjIWABZIchFI8.woff) format("woff");
 }
+
 @font-face {
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 300;
   src: local("Source Sans Pro Light"),local(SourceSansPro-Light),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGBlTL9oEQvYTI0YAW1-Ysv0.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGOode0-EuMkY--TSyExeINg.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGNbE_oMaV8t2eFeISPpzbdE.woff) format("woff");
 }
+
 @font-face {
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 400;
   src: local("Source Sans Pro"),local(SourceSansPro-Regular),url(//fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlN0tugusXa58UbOrParLRF0.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff) format("woff");
 }
+
 @font-face {
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 600;
   src: local("Source Sans Pro Semibold"),local(SourceSansPro-Semibold),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGNanmHNzStikJN_FjplbBik.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGCOFnW3Jk0f09zW_Yln67Ac.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGJ6-ys_j0H4QL65VLqzI3wI.woff) format("woff");
 }
+
 @font-face {
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 700;
   src: local("Source Sans Pro Bold"),local(SourceSansPro-Bold),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGFV89XnfCtb1fhQGOlhyqi8.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGEo0As1BFRXtCDhS66znb_k.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGFkQc6VGVFSmCnC_l7QZG60.woff) format("woff");
 }
+
 @font-face {
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 900;
   src: local("Source Sans Pro Black"),local(SourceSansPro-Black),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGCDZg7i-e40o9FYYiSpZxAc.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGHZhYM0_6AejPZE-OqA592o.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGHiec-hVyr2k4iOzEQsW1iE.woff) format("woff");
 }
+
 @font-face {
   font-family: monospace;
   font-style: normal;
   font-weight: 200;
   src: local("Source Code Pro ExtraLight"),local(SourceCodePro-ExtraLight),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqVl_EbE5kujbLzdX6sKqH6g.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqSVh0V6fR69OLaFLklYbiSk.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqca9awK0IKUjIWABZIchFI8.woff) format("woff");
 }
+
 @font-face {
   font-family: monospace;
   font-style: normal;
   font-weight: 300;
   src: local("Source Code Pro Light"),local(SourceCodePro-Light),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqRlTL9oEQvYTI0YAW1-Ysv0.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqeode0-EuMkY--TSyExeINg.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqdbE_oMaV8t2eFeISPpzbdE.woff) format("woff");
 }
+
 @font-face {
   font-family: monospace;
   font-style: normal;
   font-weight: 400;
   src: local("Source Code Pro"),local(SourceCodePro-Regular),url(//fonts.gstatic.com/s/sourcecodepro/v6/mrl8jkM18OlOQN8JLgasD90tugusXa58UbOrParLRF0.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcecodepro/v6/mrl8jkM18OlOQN8JLgasD9V_2ngZ8dMf8fLgjYEouxg.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcecodepro/v6/mrl8jkM18OlOQN8JLgasDxM0YzuT7MdOe03otPbuUS0.woff) format("woff");
 }
+
 @font-face {
   font-family: monospace;
   font-style: normal;
   font-weight: 500;
   src: local("Source Code Pro Medium"),local(SourceCodePro-Medium),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqW98Vd-2iqmUspkFPu1BpxQ.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqUHj7CJK1I4bLnYZkMY-kd4.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqe_puumMoxhiakHfBfLgHWs.woff) format("woff");
 }
+
 @font-face {
   font-family: monospace;
   font-style: normal;
   font-weight: 600;
   src: local("Source Code Pro Semibold"),local(SourceCodePro-Semibold),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqdanmHNzStikJN_FjplbBik.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqSOFnW3Jk0f09zW_Yln67Ac.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqZ6-ys_j0H4QL65VLqzI3wI.woff) format("woff");
 }
+
 @font-face {
   font-family: monospace;
   font-style: normal;
   font-weight: 700;
   src: local("Source Code Pro Bold"),local(SourceCodePro-Bold),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqVV89XnfCtb1fhQGOlhyqi8.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqUo0As1BFRXtCDhS66znb_k.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqVkQc6VGVFSmCnC_l7QZG60.woff) format("woff");
 }
+
 @font-face {
   font-family: monospace;
   font-style: normal;
   font-weight: 900;
   src: local("Source Code Pro Black"),local(SourceCodePro-Black),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqSDZg7i-e40o9FYYiSpZxAc.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqXZhYM0_6AejPZE-OqA592o.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqXiec-hVyr2k4iOzEQsW1iE.woff) format("woff");
 }
+
 @font-face {
   font-family: sans-serif;
   font-style: italic;
   font-weight: 200;
   src: local("Source Sans Pro ExtraLight Italic"),local(SourceSansPro-ExtraLightIt),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6CPAIRw3TZpZEbtNzDM7Nlo.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6GLvoADUPo08d8_TfMCzMpg.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6PwwJPUC4r0o28cUCbhjOjM.woff) format("woff");
 }
+
 @font-face {
   font-family: sans-serif;
   font-style: italic;
   font-weight: 300;
   src: local("Source Sans Pro Light Italic"),local(SourceSansPro-LightIt),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6Ffv2gilBNcWxh_XnzykpgY.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6MAjkyiewWYrWZc50I8hK7I.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6GGomRtBD2u8FwSY4jjlmeA.woff) format("woff");
 }
+
 @font-face {
   font-family: sans-serif;
   font-style: italic;
   font-weight: 400;
   src: local("Source Sans Pro Italic"),local(SourceSansPro-It),url(//fonts.gstatic.com/s/sourcesanspro/v9/M2Jd71oPJhLKp0zdtTvoM04EkD-uilk0_oIxFXvMtLk.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcesanspro/v9/M2Jd71oPJhLKp0zdtTvoMxgy2Fsj5sj3EzlXpqVXRKo.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcesanspro/v9/M2Jd71oPJhLKp0zdtTvoMzNrcjQuD0pTu1za2FULaMs.woff) format("woff");
 }
+
 @font-face {
   font-family: sans-serif;
   font-style: italic;
   font-weight: 600;
   src: local("Source Sans Pro Semibold Italic"),local(SourceSansPro-SemiboldIt),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6EbumxWHRSe1oVyAWeloI5o.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6GQKuzMuncr0JB710wa2dPI.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6PULlOK_XQENnt2ryrY843E.woff) format("woff");
 }
+
 @font-face {
   font-family: sans-serif;
   font-style: italic;
   font-weight: 700;
   src: local("Source Sans Pro Bold Italic"),local(SourceSansPro-BoldIt),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6HXzH4U_Axe6qCclt7v7nW0.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6Nnl6YROR5rHLkdLoHwoOWA.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6Nog-We9VNve39Jr4Vs_aDc.woff) format("woff");
 }
+
 @font-face {
   font-family: sans-serif;
   font-style: italic;
   font-weight: 900;
   src: local("Source Sans Pro Black Italic"),local(SourceSansPro-BlackIt),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6JbSLHYK2KPWJI4XZKReQz0.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6Kixy-5gtMP3-zP8S1pobIg.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6ONg1gFYvjbPSGxSBhvPu6E.woff) format("woff");
 }
+
 @font-face {
   font-family: sans-serif;
   font-style: normal;
   font-weight: 200;
   src: local("Source Sans Pro ExtraLight"),local(SourceSansPro-ExtraLight),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGFl_EbE5kujbLzdX6sKqH6g.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGCVh0V6fR69OLaFLklYbiSk.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGMa9awK0IKUjIWABZIchFI8.woff) format("woff");
 }
+
 @font-face {
   font-family: sans-serif;
   font-style: normal;
   font-weight: 300;
   src: local("Source Sans Pro Light"),local(SourceSansPro-Light),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGBlTL9oEQvYTI0YAW1-Ysv0.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGOode0-EuMkY--TSyExeINg.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGNbE_oMaV8t2eFeISPpzbdE.woff) format("woff");
 }
+
 @font-face {
   font-family: sans-serif;
   font-style: normal;
   font-weight: 400;
   src: local("Source Sans Pro"),local(SourceSansPro-Regular),url(//fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlN0tugusXa58UbOrParLRF0.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff) format("woff");
 }
+
 @font-face {
   font-family: sans-serif;
   font-style: normal;
   font-weight: 600;
   src: local("Source Sans Pro Semibold"),local(SourceSansPro-Semibold),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGNanmHNzStikJN_FjplbBik.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGCOFnW3Jk0f09zW_Yln67Ac.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGJ6-ys_j0H4QL65VLqzI3wI.woff) format("woff");
 }
+
 @font-face {
   font-family: sans-serif;
   font-style: normal;
   font-weight: 700;
   src: local("Source Sans Pro Bold"),local(SourceSansPro-Bold),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGFV89XnfCtb1fhQGOlhyqi8.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGEo0As1BFRXtCDhS66znb_k.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGFkQc6VGVFSmCnC_l7QZG60.woff) format("woff");
 }
+
 @font-face {
   font-family: sans-serif;
   font-style: normal;
   font-weight: 900;
   src: local("Source Sans Pro Black"),local(SourceSansPro-Black),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGCDZg7i-e40o9FYYiSpZxAc.eot?#) format("eot"),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGHZhYM0_6AejPZE-OqA592o.woff2) format("woff2"),url(//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGHiec-hVyr2k4iOzEQsW1iE.woff) format("woff");
 }
+
+/*
+ * Notes from JG 09/06/16
+ *
+ * This CSS is trying to adhere to namespacing to make it clear what the function
+ * of each class is. For example:
+ *
+ *  .js-    Signifies that this piece of the DOM has some behaviour acting
+ *          upon it, and that JavaScript binds onto it to provide that
+ *          behaviour. If you’re not a developer working with JavaScript, leave
+ *          these well alone.
+ *
+ *  .c-     Signifies that something is a Component. This is a concrete,
+ *          implementation-specific piece of UI. All of the changes you make to
+ *          its styles should be detectable in the context you’re currently
+ *          looking at. Modifying these styles should be safe and have no side
+ *          effects.
+ *
+ *  .u-     Signifies that this class is a Utility class. It has a very specific
+ *          role (often providing only one declaration) and should not be bound
+ *          onto or changed. It can be reused and is not tied to any specific
+ *          piece of UI. You will probably recognise this namespace from libraries
+ *          and methodologies like SUIT.
+ *
+ *          Read more at http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/
+ *
+ *
+ *  PARTIALS INDEX
+ *  --------------
+ *
+ *  BASE STYLES
+ *  _reset.................Normalize, box-sizing & font smoothing
+ *  _variables.............All project variables defined
+ *  _media-queries.........Breakpoint aliases
+ *  _base-elements.........Base stylings for html elements eg. <hr>
+ *  _media.................Responsive rules for img element
+ *  _typography............Decoded typography styles
+ *  _grid..................A responsive, flexbox driven grid
+ *  _helpers...............Collection of helper classes
+ *  _layout................Page wrappers, containers etc
+ *
+ *
+ *  VENDOR CSS
+ *  ----------
+ *  _pushy.................Default styles for the '.c-page-nav menu'
+ *  _pushy-customizations..Additions to default styles
+ *
+ *
+ *  COMPONENTS
+ *  ----------
+ *  _page-structure........Establishing the layout of the page
+ *  _site-header...........Styles for the header
+ *  _cards.................Styles for cards
+ *  _cover-image...........Options for creating a cover image using background-image
+ *  _hero-image............A full width banner image
+ *  _glossary..............Styles for the glossary tab
+ *  _autocomplete..........Styles for the autocomplete field in the glossary
+ *
+ */
+
 /* base */
+
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+
 /**
  * 1. Change the default font family in all browsers (opinionated).
  * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
  */
+
 html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
+
 /**
  * Remove the margin in all browsers (opinionated).
  */
+
 body {
   margin: 0;
 }
+
 /* HTML5 display definitions
    ========================================================================== */
+
 /**
  * Add the correct display in IE 9-.
  * 1. Add the correct display in Edge, IE, and Firefox.
  * 2. Add the correct display in IE.
  */
+
 article,
 aside,
 details, /* 1 */
@@ -282,110 +390,140 @@ section,
 summary { /* 1 */
   display: block;
 }
+
 /**
  * Add the correct display in IE 9-.
  */
+
 audio,
 canvas,
 progress,
 video {
   display: inline-block;
 }
+
 /**
  * Add the correct display in iOS 4-7.
  */
+
 audio:not([controls]) {
   display: none;
   height: 0;
 }
+
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
+
 progress {
   vertical-align: baseline;
 }
+
 /**
  * Add the correct display in IE 10-.
  * 1. Add the correct display in IE.
  */
+
 template, /* 1 */
 [hidden] {
   display: none;
 }
+
 /* Links
    ========================================================================== */
+
 /**
  * 1. Remove the gray background on active links in IE 10.
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
+
 a {
   background-color: transparent; /* 1 */
   -webkit-text-decoration-skip: objects; /* 2 */
 }
+
 /**
  * Remove the outline on focused links when they are also active or hovered
  * in all browsers (opinionated).
  */
+
 a:active,
 a:hover {
   outline-width: 0;
 }
+
 /* Text-level semantics
    ========================================================================== */
+
 /**
  * 1. Remove the bottom border in Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
+
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
   text-decoration: underline dotted; /* 2 */
 }
+
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
+
 b,
 strong {
   font-weight: inherit;
 }
+
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
+
 b,
 strong {
   font-weight: bolder;
 }
+
 /**
  * Add the correct font style in Android 4.3-.
  */
+
 dfn {
   font-style: italic;
 }
+
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
+
 /**
  * Add the correct background and color in IE 9-.
  */
+
 mark {
   background-color: #ff0;
   color: #000;
 }
+
 /**
  * Add the correct font size in all browsers.
  */
+
 small {
   font-size: 80%;
 }
+
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
+
 sub,
 sup {
   font-size: 75%;
@@ -393,32 +531,42 @@ sup {
   position: relative;
   vertical-align: baseline;
 }
+
 sub {
   bottom: -0.25em;
 }
+
 sup {
   top: -0.5em;
 }
+
 /* Embedded content
    ========================================================================== */
+
 /**
  * Remove the border on images inside links in IE 10-.
  */
+
 img {
   border-style: none;
 }
+
 /**
  * Hide the overflow in IE.
  */
+
 svg:not(:root) {
   overflow: hidden;
 }
+
 /* Grouping content
    ========================================================================== */
+
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
+
 code,
 kbd,
 pre,
@@ -426,27 +574,34 @@ samp {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
+
 /**
  * Add the correct margin in IE 8.
  */
+
 figure {
   margin: 1em 40px;
 }
+
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
+
 hr {
   box-sizing: content-box; /* 1 */
   height: 0; /* 1 */
   overflow: visible; /* 2 */
 }
+
 /* Forms
    ========================================================================== */
+
 /**
  * 1. Change font properties to `inherit` in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
  */
+
 button,
 input,
 select,
@@ -454,42 +609,52 @@ textarea {
   font: inherit; /* 1 */
   margin: 0; /* 2 */
 }
+
 /**
  * Restore the font weight unset by the previous rule.
  */
+
 optgroup {
   font-weight: bold;
 }
+
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
+
 button,
 input { /* 1 */
   overflow: visible;
 }
+
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
+
 button,
 select { /* 1 */
   text-transform: none;
 }
+
 /**
  * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
  *    controls in Android 4.
  * 2. Correct the inability to style clickable types in iOS and Safari.
  */
+
 button,
 html [type="button"], /* 1 */
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button; /* 2 */
 }
+
 /**
  * Remove the inner border and padding in Firefox.
  */
+
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -497,29 +662,35 @@ button::-moz-focus-inner,
   border-style: none;
   padding: 0;
 }
+
 /**
  * Restore the focus styles unset by the previous rule.
  */
+
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
+
 /**
  * Change the border, margin, and padding in all browsers (opinionated).
  */
+
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
+
 /**
  * 1. Correct the text wrapping in Edge and IE.
  * 2. Correct the color inheritance from `fieldset` elements in IE.
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
+
 legend {
   box-sizing: border-box; /* 1 */
   color: inherit; /* 2 */
@@ -528,58 +699,73 @@ legend {
   padding: 0; /* 3 */
   white-space: normal; /* 1 */
 }
+
 /**
  * Remove the default vertical scrollbar in IE.
  */
+
 textarea {
   overflow: auto;
 }
+
 /**
  * 1. Add the correct box sizing in IE 10-.
  * 2. Remove the padding in IE 10-.
  */
+
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
 }
+
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
+
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
+
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
+
 [type="search"] {
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
+
 /**
  * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
  */
+
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
+
 /**
  * Correct the text style of placeholders in Chrome, Edge, and Safari.
  */
+
 ::-webkit-input-placeholder {
   color: inherit;
   opacity: 0.54;
 }
+
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
+
 ::-webkit-file-upload-button {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
+
 html, body {
   margin: 0;
   padding: 0;
@@ -587,13 +773,17 @@ html, body {
 	-moz-osx-font-smoothing: antialiased;
   text-shadow: 0 0 0;
 }
+
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 /* variables */
+
 :root {
     /* fonts */
 
@@ -611,62 +801,70 @@ html {
 
     /* z-index scale */
 }
-/*
- * media query aliases
- * also change them in less/third-party/_grid.less
- */
+
 /* vertical breakpoints */
-/*
- * Hide on certain media
- */
-@media (max-width: 553px) {
-    *.hidden-on-min {
-        display: none !important;
-    }
+
+hr {
+  background: rgb(242,241,239);
+  height: 1px;
+  border: none;
 }
-@media (min-width: 544px) and (max-width: 767px) {
-    *.hidden-on-S {
-        display: none !important;
-    }
+
+.o-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
-@media (min-width: 5768px) and (max-width: 991px) {
-    *.hidden-on-M {
-        display: none !important;
-    }
+
+.o-media-figure {
+  margin-right: 1em;
 }
-@media (min-width: 6992px) and (max-width: 1199px) {
-    *.hidden-on-L {
-        display: none !important;
-    }
+
+.o-media-body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
+
 img {
   width: 100%;
   height: auto;
 }
+
 /* containers */
+
 html {
         -webkit-font-smoothing: antialiased !important;
         font-size: 100%;
     }
+
 body {
         font-family: "Source Sans Pro", Helvetica, sans-serif;
         font-weight: 300;
         color: #333333;
     }
+
 /* headings */
+
 .context {
       margin-top: 18.24px;
       margin-top: 1.14rem;
       font-size: 16px;
       font-size: 1rem;
     }
+
 .context + h1 {
       margin-top: 0;
     }
+
 h1, h2, h3, h4, h5, h6 {
         font-family: "Source Sans Pro", Helvetica, sans-serif;
         font-weight: 300;
     }
+
 h1 {
         font-size: 36.8px;
         font-size: 2.3rem;
@@ -674,6 +872,7 @@ h1 {
         margin: 59.2px 0;
         margin: 3.7rem 0;
     }
+
 h1.XXXL {
         font-size: 59.2px;
         font-size: 3.7rem;
@@ -681,6 +880,7 @@ h1.XXXL {
         margin: 59.2px 0;
         margin: 3.7rem 0;
     }
+
 h1.headline {
         font-family: "Source Serif Pro", serif;
         font-size: 107.2px;
@@ -690,6 +890,7 @@ h1.headline {
         margin: 107.2px 0;
         margin: 6.7rem 0;
     }
+
 h2 {
         font-size: 21.44px;
         font-size: 1.34rem;
@@ -698,6 +899,7 @@ h2 {
         margin: 59.2px 0 21.44px;
         margin: 3.7rem 0 1.34rem;
     }
+
 h3 {
         font-size: 21.44px;
         font-size: 1.34rem;
@@ -706,6 +908,7 @@ h3 {
         margin: 2.3rem 0 1.34rem;
         color: rgb(186,184,176);
     }
+
 h4, h5, h6 {
         font-size: 18.24px;
         font-size: 1.14rem;
@@ -714,10 +917,12 @@ h4, h5, h6 {
         margin: 18.24px 0;
         margin: 1.14rem 0;
     }
+
 /*
     Remove margins when it's the first
     or last element in the parent container
     */
+
 h1:first-child,
     h2:first-child,
     h3:first-child,
@@ -726,6 +931,7 @@ h1:first-child,
     h6:first-child {
       margin-top:0;
     }
+
 h1:last-child,
     h2:last-child,
     h3:last-child,
@@ -734,13 +940,16 @@ h1:last-child,
     h6:last-child {
       margin-bottom:0;
     }
+
 /* text */
+
 p {
         font-size: 16px;
         font-size: 1rem;
         line-height: 1.34;
         color: rgb(83,80,75);
     }
+
 .lead {
         font-family: "Source Serif Pro", serif;
         font-weight: 600;
@@ -749,14 +958,18 @@ p {
         line-height: 1.34;
         color: rgb(83,80,75);
     }
+
 strong {
         font-weight: 600;
     }
+
 del {
         font-weight: 300;
         text-decoration: strike-through;
     }
+
 /* links */
+
 a {
         color: rgb(83,80,75);
         font-weight: 300;
@@ -764,12 +977,14 @@ a {
         font-size: 16px;
         font-size: 1rem;
     }
+
 a:hover,
     a:focus,
     a:active {
         color: rgb(83,80,75);
         text-decoration: inherit;
     }
+
 .typography a {
         color: rgb(83,80,75);
         font-weight: 300;
@@ -777,6 +992,7 @@ a:hover,
         border-bottom: 1px solid rgb(186,184,176);
         box-shadow: inset 0 -2px 0 rgb(186,184,176);
     }
+
 .typography a:hover,
     .typography a:focus,
     .typography a:active {
@@ -785,74 +1001,96 @@ a:hover,
         border-bottom: 1px solid rgb(186,184,176);
         box-shadow: inset 0 -4px 0 rgb(186,184,176);
     }
+
 a.no-styles{
         color: inherit;
         font-weight: inherit;
         text-decoration: none;
         letter-spacing: 0;
     }
+
 a.no-styles:hover,
     a.no-styles:focus,
     a.no-styles:active {
         color: inherit;
         text-decoration: none;
     }
+
 /* lists */
+
 ul, ol { }
+
 li { }
+
 /* quotes */
+
 blockquote {
         font-size: 21.44px;
         font-size: 1.34rem;
         line-height: 2.3;
     }
+
 /**
  * Course Name _in a Day
  */
+
 .courseName {
         font-weight: 600;
     }
+
 .courseName span {
         font-weight: 300;
     }
+
 /**
  * Horizontal text alignment
  */
+
 .textCenter {
   text-align: center !important;
 }
+
 .textLeft {
   text-align: left !important;
 }
+
 .textRight {
   text-align: right !important;
 }
+
 /*
  * Extended Typographic styles within the .typography wrapper
  */
+
 .typography p {
     margin-bottom: 16px;
     margin-bottom: 1rem;
  }
+
 /* lists  are only formatted within .typography or with .styled*/
+
 .typography ol,
 .typography ul {
   margin: 21.44px 0 36.8px 0;
   margin: 1.34rem 0 2.3rem 0;
   padding: 0;
 }
+
 .typography li p {
   margin: 0;
 }
+
 .typography li {
   margin: 0 0 16px 0;
   margin: 0 0 1rem 0;
 }
+
 .typography ul li,
 ul.styled li {
   list-style-type: none;
   position: relative;
 }
+
 .typography ul li::before,
 ul.styled li::before {
   content: "⟩";
@@ -865,12 +1103,14 @@ ul.styled li::before {
   text-align: right;
   color: rgb(186,184,176);
 }
+
 .typography ol li,
 ol.styled li {
   counter-increment: step-counter;
   list-style-type: none;
   position: relative;
 }
+
 .typography ol li::before,
 ol.styled li::before {
   content: counter(step-counter, decimal-leading-zero);
@@ -883,6 +1123,7 @@ ol.styled li::before {
   text-align: right;
   color: rgb(186,184,176);
 }
+
 code,
 kbd,
 samp {
@@ -892,15 +1133,19 @@ samp {
   background-color: rgb(242,241,239);
   padding: 0 0.6em;
 }
+
 pre code {
   display: block;
   padding: 0.6em;
   overflow: scroll;
 }
+
 /* tables */
+
 table {
   width: 100%;
 }
+
 th, td {
   border-bottom: 1px solid rgb(186,184,176);
   padding: 9.6px 9.6px 9.6px 0;
@@ -909,48 +1154,58 @@ th, td {
   color: rgb(186,184,176);
   font-weight: 300;
 }
+
 td {
   border-bottom: 1px solid rgb(242,241,239);
   color: #333333;
 }
+
 /* typography examples, overrides */
+
 .sans-serif {
   font-family: "Source Sans Pro", Helvetica, sans-serif !important;
 }
+
 .serif {
   font-family: "Source Serif Pro", serif !important;
 }
+
 .full-width {
   width: 100%;
 }
-/*
+
+/**
+ * GRID CUSTOMIZATIONS
  *
  * JG 08/06/2016
- * I added this rule to force equal height for all direct
- * children of a row
- *
+ * I added this rule to force equal height for all direct children of a row
  */
+
 .row > * {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+
 /*
  *
  * http://flexboxgrid.com/
  *
  */
+
 .container-fluid,
 .container {
   margin-right: auto;
   margin-left: auto;
 }
+
 .container-fluid {
   padding-right: 32px;
   padding-right: 2rem;
   padding-left: 32px;
   padding-left: 2rem;
 }
+
 .row {
   box-sizing: border-box;
   display: -webkit-box;
@@ -970,18 +1225,21 @@ td {
   margin-left: -8px;
   margin-left: -0.5rem;
 }
+
 .row.reverse {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
 }
+
 .col.reverse {
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
   -ms-flex-direction: column-reverse;
   flex-direction: column-reverse;
 }
+
 .col-xs,
 .col-xs-1,
 .col-xs-2,
@@ -1017,6 +1275,7 @@ td {
   padding-left: 8px;
   padding-left: 0.5rem;
 }
+
 .col-xs {
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
@@ -1025,157 +1284,192 @@ td {
   flex-basis: 0;
   max-width: 100%;
 }
+
 .col-xs-1 {
   -ms-flex-preferred-size: 8.333%;
   flex-basis: 8.333%;
   max-width: 8.333%;
 }
+
 .col-xs-2 {
   -ms-flex-preferred-size: 16.666%;
   flex-basis: 16.666%;
   max-width: 16.666%;
 }
+
 .col-xs-3 {
   -ms-flex-preferred-size: 25%;
   flex-basis: 25%;
   max-width: 25%;
 }
+
 .col-xs-4 {
   -ms-flex-preferred-size: 33.333%;
   flex-basis: 33.333%;
   max-width: 33.333%;
 }
+
 .col-xs-5 {
   -ms-flex-preferred-size: 41.667%;
   flex-basis: 41.667%;
   max-width: 41.667%;
 }
+
 .col-xs-6 {
   -ms-flex-preferred-size: 50%;
   flex-basis: 50%;
   max-width: 50%;
 }
+
 .col-xs-7 {
   -ms-flex-preferred-size: 58.333%;
   flex-basis: 58.333%;
   max-width: 58.333%;
 }
+
 .col-xs-8 {
   -ms-flex-preferred-size: 66.667%;
   flex-basis: 66.667%;
   max-width: 66.667%;
 }
+
 .col-xs-9 {
   -ms-flex-preferred-size: 75%;
   flex-basis: 75%;
   max-width: 75%;
 }
+
 .col-xs-10 {
   -ms-flex-preferred-size: 83.333%;
   flex-basis: 83.333%;
   max-width: 83.333%;
 }
+
 .col-xs-11 {
   -ms-flex-preferred-size: 91.667%;
   flex-basis: 91.667%;
   max-width: 91.667%;
 }
+
 .col-xs-12 {
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
   max-width: 100%;
 }
+
 .col-xs-offset-0 {
   margin-left: 0;
 }
+
 .col-xs-offset-1 {
   margin-left: 8.333%;
 }
+
 .col-xs-offset-2 {
   margin-left: 16.666%;
 }
+
 .col-xs-offset-3 {
   margin-left: 25%;
 }
+
 .col-xs-offset-4 {
   margin-left: 33.333%;
 }
+
 .col-xs-offset-5 {
   margin-left: 41.667%;
 }
+
 .col-xs-offset-6 {
   margin-left: 50%;
 }
+
 .col-xs-offset-7 {
   margin-left: 58.333%;
 }
+
 .col-xs-offset-8 {
   margin-left: 66.667%;
 }
+
 .col-xs-offset-9 {
   margin-left: 75%;
 }
+
 .col-xs-offset-10 {
   margin-left: 83.333%;
 }
+
 .col-xs-offset-11 {
   margin-left: 91.667%;
 }
+
 .start-xs {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
   text-align: start;
 }
+
 .center-xs {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
 }
+
 .end-xs {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
   text-align: end;
 }
+
 .top-xs {
   -webkit-box-align: start;
   -ms-flex-align: start;
   -ms-grid-row-align: flex-start;
       align-items: flex-start;
 }
+
 .middle-xs {
   -webkit-box-align: center;
   -ms-flex-align: center;
   -ms-grid-row-align: center;
       align-items: center;
 }
+
 .bottom-xs {
   -webkit-box-align: end;
   -ms-flex-align: end;
   -ms-grid-row-align: flex-end;
       align-items: flex-end;
 }
+
 .around-xs {
   -ms-flex-pack: distribute;
   justify-content: space-around;
 }
+
 .between-xs {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
+
 .first-xs {
   -webkit-box-ordinal-group: 0;
   -ms-flex-order: -1;
   order: -1;
 }
+
 .last-xs {
   -webkit-box-ordinal-group: 2;
   -ms-flex-order: 1;
   order: 1;
 }
+
 @media only screen and (min-width: 48em) {
   .container {
     width: 49rem;
@@ -1409,6 +1703,7 @@ td {
     order: 1;
   }
 }
+
 @media only screen and (min-width: 64em) {
   .container {
     width: 65rem;
@@ -1642,6 +1937,7 @@ td {
     order: 1;
   }
 }
+
 @media only screen and (min-width: 75em) {
   .container {
     width: 76rem;
@@ -1875,33 +2171,67 @@ td {
     order: 1;
   }
 }
-/*
- * Flexbox utility helper classes
+
+/**
+ * INDEX
  *
+ * 1. Flexbox..........Some general flexbox options
+ * 2. Visbility........Ways to hide objects
+ * 3. Layout...........Floats & Clearfix
+ * 4. Spacing..........Margins & Padding
  */
-.u-flex--between {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
- }
-/*
- * Hide visually and from screen readers:
+
+/**
+ * 1.Flexbox
+ * ---------
+ */
+
+/* Creates a flex object which justifies it's contents by space-between
+ * and vertically aligns them centrally.
+ */
+
+.u-flex--between-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.u-flex--between-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+/**
+ * 2. Visibility
+ * -------------
+ */
+
+/* Hide visually and from screen readers:
  * http://juicystudio.com/article/screen-readers-display-none.php
  */
+
 .hidden {
     display: none !important;
     visibility: hidden;
 }
-/*
- * Hide only visually, but have it available for screen readers:
+
+/* Hide only visually, but have it available for screen readers:
  * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  */
+
 .visuallyhidden {
     border: 0;
     clip: rect(0 0 0 0);
@@ -1912,11 +2242,13 @@ td {
     position: absolute;
     width: 1px;
 }
+
 /*
  * Extends the .visuallyhidden class to allow the element
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
+
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
     clip: auto;
@@ -1926,12 +2258,20 @@ td {
     position: static;
     width: auto;
 }
+
 /*
  * Hide visually and from screen readers, but maintain layout
  */
+
 .invisible {
     visibility: hidden;
 }
+
+/**
+ * 3. Layout
+ * ---------
+ */
+
 /*
  * Clearfix: contain floats
  *
@@ -1943,454 +2283,448 @@ td {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
+
 .cf:before,
 .cf:after {
     content: " "; /* 1 */
     display: table; /* 2 */
 }
+
 .cf:after {
     clear: both;
 }
+
 /*
  * Float helpers
  */
+
 .float-right {
     float: right;
 }
+
 .float-left {
     float: left;
 }
-/*
- * Margin helpers
+
+/**
+ * 4. Spacing
+ * ----------
  */
+
+/* Margin helpers
+ */
+
 .noMargin {
     margin: 0 !important;
  }
+
 .noMargin-top {
         margin-top: 0 !important;
      }
+
 .noMargin-right {
         margin-right: 0 !important;
      }
+
 .noMargin-bottom {
         margin-bottom: 0 !important;
      }
+
 .noMargin-left {
         margin-left: 0 !important;
      }
+
 .margin {
     margin: 16px !important;
     margin: 1rem !important;
  }
+
 .margin-top {
         margin-top: 16px !important;
         margin-top: 1rem !important;
      }
+
 .margin-right {
         margin-right: 16px !important;
         margin-right: 1rem !important;
      }
+
 .margin-bottom {
         margin-bottom: 16px !important;
         margin-bottom: 1rem !important;
      }
+
 .margin-left {
         margin-left: 16px !important;
         margin-left: 1rem !important;
      }
+
 .margin-S {
     margin: 13.28px !important;
     margin: 0.83rem !important;
  }
+
 .margin-top-S {
         margin-top: 13.28px !important;
         margin-top: 0.83rem !important;
      }
+
 .margin-right-S {
         margin-right: 13.28px !important;
         margin-right: 0.83rem !important;
      }
+
 .margin-bottom-S {
         margin-bottom: 13.28px !important;
         margin-bottom: 0.83rem !important;
      }
+
 .margin-left-S {
         margin-left: 13.28px !important;
         margin-left: 0.83rem !important;
      }
+
 .margin-L {
     margin: 18.24px !important;
     margin: 1.14rem !important;
  }
+
 .margin-top-L {
         margin-top: 18.24px !important;
         margin-top: 1.14rem !important;
      }
+
 .margin-right-L {
         margin-right: 18.24px !important;
         margin-right: 1.14rem !important;
      }
+
 .margin-bottom-L {
         margin-bottom: 18.24px !important;
         margin-bottom: 1.14rem !important;
      }
+
 .margin-left-L {
         margin-left: 18.24px !important;
         margin-left: 1.14rem !important;
      }
+
 .margin-XL {
     margin: 21.44px !important;
     margin: 1.34rem !important;
  }
+
 .margin-top-XL {
         margin-top: 21.44px !important;
         margin-top: 1.34rem !important;
      }
+
 .margin-right-XL {
         margin-right: 21.44px !important;
         margin-right: 1.34rem !important;
      }
+
 .margin-bottom-XL {
         margin-bottom: 21.44px !important;
         margin-bottom: 1.34rem !important;
      }
+
 .margin-left-XL {
         margin-left: 21.44px !important;
         margin-left: 1.34rem !important;
      }
+
 .margin-XXL {
     margin: 36.8px !important;
     margin: 2.3rem !important;
  }
+
 .margin-top-XXL {
         margin-top: 36.8px !important;
         margin-top: 2.3rem !important;
      }
+
 .margin-right-XXL {
         margin-right: 36.8px !important;
         margin-right: 2.3rem !important;
      }
+
 .margin-bottom-XXL {
         margin-bottom: 36.8px !important;
         margin-bottom: 2.3rem !important;
      }
+
 .margin-left-XXL {
         margin-left: 36.8px !important;
         margin-left: 2.3rem !important;
      }
+
 .margin-XXXL {
     margin: 59.2px !important;
     margin: 3.7rem !important;
  }
+
 .margin-top-XXXL {
         margin-top: 59.2px !important;
         margin-top: 3.7rem !important;
      }
+
 .margin-right-XXXL {
         margin-right: 59.2px !important;
         margin-right: 3.7rem !important;
      }
+
 .margin-bottom-XXXL {
         margin-bottom: 59.2px !important;
         margin-bottom: 3.7rem !important;
      }
+
 .margin-left-XXXL {
         margin-left: 59.2px !important;
         margin-left: 3.7rem !important;
      }
+
 .margin-XXXXL {
     margin: 107.2px !important;
     margin: 6.7rem !important;
  }
+
 .margin-top-XXXXL {
         margin-top: 107.2px !important;
         margin-top: 6.7rem !important;
      }
+
 .margin-right-XXXXL {
         margin-right: 107.2px !important;
         margin-right: 6.7rem !important;
      }
+
 .margin-bottom-XXXXL {
         margin-bottom: 107.2px !important;
         margin-bottom: 6.7rem !important;
      }
+
 .margin-left-XXXXL {
         margin-left: 107.2px !important;
         margin-left: 6.7rem !important;
      }
-/*
-* Padding helpers
+
+/* Padding helpers
 */
+
 .noPadding {
    padding: 0 !important;
 }
+
 .noPadding-top {
              padding-top: 0 !important;
           }
+
 .noPadding-right {
              padding-right: 0 !important;
           }
+
 .noPadding-bottom {
              padding-bottom: 0 !important;
           }
+
 .noPadding-left {
              padding-left: 0 !important;
           }
+
 .padding {
          padding: 16px !important;
          padding: 1rem !important;
       }
+
 .padding-top {
              padding-top: 16px !important;
              padding-top: 1rem !important;
           }
+
 .padding-right {
              padding-right: 16px !important;
              padding-right: 1rem !important;
           }
+
 .padding-bottom {
              padding-bottom: 16px !important;
              padding-bottom: 1rem !important;
           }
+
 .padding-left {
              padding-left: 16px !important;
              padding-left: 1rem !important;
           }
+
 .padding-S {
          padding: 13.28px !important;
          padding: 0.83rem !important;
       }
+
 .padding-top-S {
              padding-top: 13.28px !important;
              padding-top: 0.83rem !important;
           }
+
 .padding-right-S {
              padding-right: 13.28px !important;
              padding-right: 0.83rem !important;
           }
+
 .padding-bottom-S {
              padding-bottom: 13.28px !important;
              padding-bottom: 0.83rem !important;
           }
+
 .padding-left-S {
              padding-left: 13.28px !important;
              padding-left: 0.83rem !important;
           }
+
 .padding-L {
          padding: 18.24px !important;
          padding: 1.14rem !important;
       }
+
 .padding-top-L {
              padding-top: 18.24px !important;
              padding-top: 1.14rem !important;
           }
+
 .padding-right-L {
              padding-right: 18.24px !important;
              padding-right: 1.14rem !important;
           }
+
 .padding-bottom-L {
              padding-bottom: 18.24px !important;
              padding-bottom: 1.14rem !important;
           }
+
 .padding-left-L {
              padding-left: 18.24px !important;
              padding-left: 1.14rem !important;
           }
+
 .padding-XL {
          padding: 21.44px !important;
          padding: 1.34rem !important;
       }
+
 .padding-top-XL {
              padding-top: 21.44px !important;
              padding-top: 1.34rem !important;
           }
+
 .padding-right-XL {
              padding-right: 21.44px !important;
              padding-right: 1.34rem !important;
           }
+
 .padding-bottom-XL {
              padding-bottom: 21.44px !important;
              padding-bottom: 1.34rem !important;
           }
+
 .padding-left-XL {
              padding-left: 21.44px !important;
              padding-left: 1.34rem !important;
           }
+
 .padding-XXL {
          padding: 36.8px !important;
          padding: 2.3rem !important;
       }
+
 .padding-top-XXL {
              padding-top: 36.8px !important;
              padding-top: 2.3rem !important;
           }
+
 .padding-right-XXL {
              padding-right: 36.8px !important;
              padding-right: 2.3rem !important;
           }
+
 .padding-bottom-XXL {
              padding-bottom: 36.8px !important;
              padding-bottom: 2.3rem !important;
           }
+
 .padding-left-XXL {
              padding-left: 36.8px !important;
              padding-left: 2.3rem !important;
           }
+
 .padding-XXXL {
            padding: 59.2px !important;
            padding: 3.7rem !important;
         }
+
 .padding-top-XXXL {
                padding-top: 59.2px !important;
                padding-top: 3.7rem !important;
             }
+
 .padding-right-XXXL {
                padding-right: 59.2px !important;
                padding-right: 3.7rem !important;
             }
+
 .padding-bottom-XXXL {
                padding-bottom: 59.2px !important;
                padding-bottom: 3.7rem !important;
             }
+
 .padding-left-XXXL {
                padding-left: 59.2px !important;
                padding-left: 3.7rem !important;
             }
+
 .padding-XXXXL {
            padding: 107.2px !important;
            padding: 6.7rem !important;
         }
+
 .padding-top-XXXXL {
                padding-top: 107.2px !important;
                padding-top: 6.7rem !important;
             }
+
 .padding-right-XXXXL {
                padding-right: 107.2px !important;
                padding-right: 6.7rem !important;
             }
+
 .padding-bottom-XXXXL {
                padding-bottom: 107.2px !important;
                padding-bottom: 6.7rem !important;
             }
+
 .padding-left-XXXXL {
                padding-left: 107.2px !important;
                padding-left: 6.7rem !important;
             }
-.bg-yellow {
-  background-color: rgb(254, 248, 0);
-}
-.bg-black {
-  background-color: #333333;
-}
-.bg-white {
-  background-color: #FEFEFE;
-}
-.bg-grey-dark {
-  background-color: rgb(83,80,75);
-}
-.bg-grey-medium {
-  background-color: rgb(186,184,176);
-}
-.bg-grey-light {
-  background-color: rgb(242,241,239);
-}
-.bg-yellow-light {
-  background-color: rgb(254,248,127);
-}
-.bg-red-light {
-  background-color: rgb(253,158,127);
-}
-.bg-orange-light {
-  background-color: rgb(255,202,128);
-}
-.bg-green-light {
-  background-color: rgb(192,227,139);
-}
-.bg-blue-light {
-  background-color: rgb(127,195,225);
-}
-.bg-pink-light {
-  background-color: rgb(252,131,179);
-}
-.bg-purple-light {
-  background-color: rgb(171,127,193);
-}
-.bg-red {
-  background-color: rgb(231,76,60);
-}
-.bg-orange {
-  background-color: rgb(243,146,15);
-}
-.bg-green {
-  background-color: rgb(46,204,133);
-}
-.bg-blue {
-  background-color: rgb(52,141,204);
-}
-.bg-pink {
-  background-color: rgb(249,58,142);
-}
-.bg-purple {
-  background-color: rgb(140,86,182);
-}
-hr {
-  background: rgb(242,241,239);
-  height: 1px;
-  border: none;
-}
+
+/* A wrapper to give page a max width & center the content upwards of that
+ */
+
 .u-wrapper {
-    padding: 1em;
+    padding: 0 1em;
     max-width: 60em;
     margin: 0 auto;
 }
-.u-page-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 
-}
-/*
- * A container which identifies the visible stage, ready
- * to be shifted to reveal offscreen navigation
- */
-.c-visible-page {
-  width: 100vw;
-}
-.c-visible-page.active {
-  margin-left: -90vw;
-  -webkit-transition: margin 0.1s; /* Safari */
-          transition: margin 0.1s;
-}
-@media (min-width: 1000px) {
-    .c-visible-page {
-      width: 80vw;
-    }
-  }
-/*
- * On small screens the aside which houses the glossary
- * search is constantly waiting in the wings.
- *
- * On larger screens it is constantly visible.
- *
- */
-.c-aside {
-  width: 90vw;
-  position: fixed;
-  height: 100vh;
-  background: rgb(242,241,239);
-  padding: 2em;
-}
-@media (min-width: 1000px) {
-    .c-aside {
-      width: 20vw;
-    }
-  }
 /* vendor */
+
 /*! Pushy - v1.0.0 - 2016-3-1
 * Pushy is a responsive off-canvas navigation menu using CSS transforms & transitions.
 * https://github.com/christophery/pushy/
 * by Christopher Yee */
+
 /* Menu Appearance */
+
 .pushy {
   position: fixed;
   width: 200px;
@@ -2403,6 +2737,7 @@ hr {
   -webkit-overflow-scrolling: touch;
   /* enables momentum scrolling in iOS overflow elements */
 }
+
 .pushy a {
   display: block;
   color: #b3b3b1;
@@ -2410,43 +2745,55 @@ hr {
   text-decoration: none;
   outline: 0;
 }
+
 .pushy a:hover {
   color: #FFF;
 }
+
 .pushy ul:first-child {
   margin-top: 10px;
 }
+
 .pushy.pushy-left {
   left: 0;
 }
+
 .pushy.pushy-right {
   right: 0;
 }
+
 /* Menu Movement */
+
 .pushy-left {
   -webkit-transform: translate3d(-200px, 0, 0);
   transform: translate3d(-200px, 0, 0);
 }
+
 .pushy-open-left #container,
 .pushy-open-left .push {
   -webkit-transform: translate3d(200px, 0, 0);
   transform: translate3d(200px, 0, 0);
 }
+
 .pushy-right {
   -webkit-transform: translate3d(200px, 0, 0);
   transform: translate3d(200px, 0, 0);
 }
+
 .pushy-open-right #container,
 .pushy-open-right .push {
   -webkit-transform: translate3d(-200px, 0, 0);
   transform: translate3d(-200px, 0, 0);
 }
+
 .pushy-open-left .pushy,
 .pushy-open-right .pushy {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
+
 /* Menu Transitions */
+
 #container,
 .pushy,
 .push {
@@ -2455,10 +2802,13 @@ hr {
   transition: transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
   transition: transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99), -webkit-transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
 }
+
 /* Site Overlay */
+
 .site-overlay {
   display: none;
 }
+
 .pushy-open-left .site-overlay,
 .pushy-open-right .site-overlay {
   display: block;
@@ -2472,6 +2822,7 @@ hr {
   -webkit-animation: fade 500ms;
   animation: fade 500ms;
 }
+
 @keyframes fade {
   0% {
     opacity: 0;
@@ -2480,6 +2831,7 @@ hr {
     opacity: 1;
   }
 }
+
 @-webkit-keyframes fade {
   0% {
     opacity: 0;
@@ -2488,22 +2840,28 @@ hr {
     opacity: 1;
   }
 }
+
 /* Submenu Appearance */
+
 .pushy-submenu {
   /* Submenu Icon */
 }
+
 .pushy-submenu ul {
   padding-left: 15px;
   -webkit-transition: max-height 0.2s ease-in-out;
   transition: max-height 0.2s ease-in-out;
 }
+
 .pushy-submenu ul .pushy-link {
   -webkit-transition: opacity 0.2s ease-in-out;
   transition: opacity 0.2s ease-in-out;
 }
+
 .pushy-submenu > a {
   position: relative;
 }
+
 .pushy-submenu > a::after {
   content: '';
   display: block;
@@ -2520,73 +2878,141 @@ hr {
   transition: transform 0.2s;
   transition: transform 0.2s, -webkit-transform 0.2s;
 }
+
 /* Submenu Movement */
+
 .pushy-submenu-closed ul {
   max-height: 0;
   overflow: hidden;
 }
+
 .pushy-submenu-closed .pushy-link {
   opacity: 0;
 }
+
 .pushy-submenu-open {
   /* Submenu Icon */
 }
+
 .pushy-submenu-open ul {
   max-height: 1000px;
 }
+
 .pushy-submenu-open .pushy-link {
   opacity: 1;
 }
+
 .pushy-submenu-open a::after {
   -webkit-transform: translateY(-50%) rotate(90deg);
   transform: translateY(-50%) rotate(90deg);
 }
+
 .no-csstransforms3d .pushy-submenu-closed ul {
   max-height: none;
   display: none;
 }
+
 /*off-canvas nav*/
+
+/* Change the background colour of the nav
+ */
+
 .pushy {
   background: rgb(37,37,37);
 }
+
+/* Smaller & centrally justified header
+ */
+
 .pushy h3 {
     font-size: 1em;
     text-align: center;
 }
+
+/* Remove top margin from the ordered list
+ */
+
 .pushy ol:first-child {
     margin-top: 0;
 }
+
+/* Make the list full width, and style numbered list style
+ */
+
 .c-pushy-menu-list {
     width: 100%;
     padding-left: 2em;
     list-style-type: decimal;
-    list-style-type: decimal;
     color: rgb(186,184,176);
 }
+
+/* Style the 'back' link at the top of the nav
+ */
+
 .c-back-link {
   background: black;
   text-align: center;
 }
+
 /* components */
-.header-bar {
-  width: 100%;
-  position: absolute;
-  top: 0;
+
+/* Container for the whole page. It contains 2 items: the '.c-visible-page' and
+ * the '.c-glossary'. Flexbox allows them to sit next to each other nicely.
+
+*/
+
+.c-page-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
-.header-bar-fixed {
+
+/*
+ * A container which wraps around the main page content. This is then used
+ * to shift the entire page to the left to reveal the glossary search.
+ */
+
+.c-visible-page {
+  width: 100vw;
+}
+
+/* The active class is applied to '.c-visible-page' when '.js-glossary-toggle' or
+ * '.js-glossary-close' are clicked. See glossary.js for more details
+ */
+
+.c-visible-page.active {
+  margin-left: -90vw;
+  -webkit-transition: margin 0.1s; /* Safari */
+          transition: margin 0.1s;
+}
+
+@media (min-width: 1000px) {
+    .c-visible-page {
+      width: 80vw;
+    }
+  }
+
+/* On small screens the glossary search is constantly waiting in the wings.
+ * On larger screens it is constantly visible.
+ */
+
+.c-glossary {
+  width: 90vw;
   position: fixed;
+  height: 100vh;
+  background: rgb(242,241,239);
+  padding: 2em;
 }
-.header-brochure .name {
-  margin: 80px 0 0 16px;
-  margin: 5rem 0 0 1rem;
-}
-.nav-toggle {
-  float: left;
-  width: 18.24px;
-  width: 1.14rem;
-  height: 18.24px;
-  height: 1.14rem;
-}
+
+@media (min-width: 1000px) {
+    .c-glossary {
+      width: 20vw;
+    }
+  }
+
+/* Base styles for the header
+ */
+
 .c-site-header {
 
   width: 100%;
@@ -2598,187 +3024,54 @@ hr {
   box-shadow: 1px 1px 1px rgb(242,241,239);
 
 }
+
 @media (min-width: 1000px) {
     .c-site-header {
       width: 80vw;
     }
   }
+
+/* '.sticky' class is appended to '.c-site-header' when the page scrolls past
+ * '.js-main-content' - see sticky-header.js
+ */
+
 .c-site-header.sticky {
    position: fixed;
    top: 0;
 }
+
+/* Custom typography stylings in the header
+ */
+
 .c-site-header h1 {
   margin: 0;
 }
-.nav {
-  padding: 0;
-  margin: 0;
-}
-.nav li {
-  list-style-type: none;
-  padding: 13.28px 0;
-  padding: 0.83rem 0;
-}
-.nav-aside .nav-list {
-  text-indent: 0;
-}
-/**
- * The button classes are best applied to links, buttons, and submit inputs.
- * These components can be used in forms, as calls to action, or as part of the
- * general UI of the site/app.
- */
-/**
- * 1. Corrects inability to style clickable `input` types in iOS.
- * 2. Normalize `box-sizing` across all elements that this component could be
- *    applied to.
- * 4. Inherit font styles from ancestor.
- * 5. Normalize `line-height`. For `input`, it can't be changed from `normal` in Firefox 4+.
- * 6. Prevent button text from being selectable.
- * 7. Make sure `input` will wrap text across multiple lines.
- */
-.Btn {
-        -webkit-appearance: none; /* 1 */
-        background: transparent;
-        border-color: transparent;
-        border-style: solid;
-        border-width: 1px;
-        box-sizing: border-box; /* 2 */
-        color: rgb(83,80,75);
-        cursor: pointer;
-        display: inline-block;
-        font: inherit;
-        line-height: normal; /* 5 */
-        margin: 0;
-        padding: 0.4em 0.75em;
-        position: relative;
-        text-align: center;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-weight: 600;
-        -webkit-user-select: none;
-           -moz-user-select: none;
-            -ms-user-select: none;
-                user-select: none; /* 6 */
-        white-space: normal; /* 7 */
-    }
-/**
- * Remove excess padding and border in Firefox 4+
- */
-.Btn::-moz-focus-inner {
-        border: 0;
-        padding: 0;
-    }
-/**
- * Work around a Firefox/IE bug where the transparent `button` background
- * results in a loss of the default `button` focus styles.
- */
-.Btn:focus {
-        outline: 1px dotted;
-        outline: 5px auto -webkit-focus-ring-color;
-    }
-/**
- * UI states
- */
-.Btn:hover,
-    .Btn:focus,
-    .Btn:active {
-        text-decoration: none;
-        background: rgb(186,184,176);
-    }
-.Btn:disabled,
-    .Btn.is-disabled {
-       cursor: default;
-       opacity: 0.6;
-       pointer-events: none;
-    }
-.Btn .ion-spin {
-        display: none;
-    }
-.Btn.is-spinning .ion-spin {
-        display: inline;
-    }
-/*
-* Icons on buttons - add margins
-*/
-.Btn .ion {
-        -webkit-transform: scale(1.2);
-                transform: scale(1.2);
-        margin: 9.6px;
-        margin: 0.6rem;
-    }
-/*
-* Buttons with title and detailed description
-*/
-.Btn .description {
-        font-weight: 300;
-        margin-top: 9.6px;
-        margin-top: 0.6rem;
-    }
-/**
- * Button variations
- */
-.Btn.primary {
-        background: rgb(254, 248, 0);
-        color: #333333;
-        border-color: rgb(254, 248, 0);
-    }
-.Btn.primary:hover,
-    .Btn.primary:focus,
-    .Btn.primary:active {
-        color: rgb(83,80,75);
-    }
-.Btn.contrast {
-        background: rgb(186,184,176);
-        color: rgb(83,80,75);
-        border-color: rgb(186,184,176);
-    }
-.Btn.contrast:hover,
-    .Btn.contrast:focus,
-    .Btn.contrast:active {
-      background: rgb(242,241,239);
-      border-color: rgb(242,241,239);
-    }
-.Btn.full-width {
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-    }
-.Btn.large {
-        padding: 16px;
-        padding: 1rem;
-    }
-.Btn.active {
-        background: rgb(192,227,139);
-        color: #333333;
-        border-color: rgb(192,227,139);
-    }
-.Btn.active:hover,
-    .Btn.active:focus,
-    .Btn.active:active {
-        color: rgb(46,204,133);
-    }
+
 .c-card {
   border-radius: 2px 2px 0 0;
   border: solid 1px rgb(242,241,239);
 }
+
 .c-card:hover {
   box-shadow: 1px 1px 1px rgb(242,241,239);
 }
+
 .c-card .c-block-text {
   padding: 16px;
   padding: 1rem;
 }
+
 /*
+ * This series of classes style a css background-image to
+ * display in a variety of different ways.
+ *
+ * The image should be defined using a style attribute on the
+ * element itself.
+ */
 
-  .c-cover-image
+/* Base cover-image styles
+ */
 
-  This series of classes style a css background-image to
-  display in a variety of different ways.
-
-  The image should be defined using a style attribute on the
-  element itself.
-
-*/
 .c-cover-image,
 .c-cover-image--cover {
   background-position: 50%;
@@ -2790,17 +3083,36 @@ hr {
   overflow: hidden;
   border-bottom: solid 1px rgb(242,241,239);
 }
+
+/* This will display the image 100% height keeping the width proportional
+ */
+
 .c-cover-image {
 }
-/*
 
-  This will resize the image to cover the entire area
-  of it's parent element
+/* This will resize the image to cover the entire area of it's parent element,
+ * which is 300px high
+ */
 
-*/
 .c-cover-image--cover {
   background-size: cover;
 }
+
+.c-hero-image {
+    margin-bottom: 36.8px;
+    margin-bottom: 2.3rem;
+}
+
+.c-thumbnail-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-size: 50px;
+}
+
+/* Base stylings
+ */
+
 .c-glossary-search {
   width: 100%;
   margin-bottom: 36.8px;
@@ -2812,14 +3124,20 @@ hr {
       -ms-flex-align: center;
           align-items: center;
 }
+
 .c-glossary-close, .c-glossary-toggle {
   display: block;
 }
+
+/* Hide the toggles on larger screens
+ */
+
 @media (min-width: 1000px) {
   .c-glossary-close, .c-glossary-toggle {
     display: none;
   }
 }
+
 .c-glossary-search-field {
   width: 100%;
   padding: 16px;
@@ -2827,27 +3145,36 @@ hr {
   margin-right: 16px;
   margin-right: 1rem;
 }
+
+/* Stylings for the autocomplete results
+ */
+
 .autocomplete-suggestions {
   border: 1px rgb(242,241,239) #999;
   background: white;
   overflow: auto;
 }
+
 .autocomplete-suggestion {
   padding: 16px;
   padding: 1rem;
   white-space: nowrap;
   overflow: hidden;
 }
+
 .autocomplete-selected {
   background: rgba(242,241,239,.5);
 }
+
 .autocomplete-suggestions strong {
   font-weight: normal;
   color: #3399FF;
 }
+
 .autocomplete-group {
   padding: 2px 5px;
 }
+
 .autocomplete-group strong {
   display: block;
   border-bottom: 1px solid #000;

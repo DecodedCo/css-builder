@@ -1,0 +1,47 @@
+/* Container for the whole page. It contains 2 items: the '.c-visible-page' and
+ * the '.c-glossary'. Flexbox allows them to sit next to each other nicely.
+
+*/
+.c-page-container {
+  display: flex;
+}
+
+/*
+ * A container which wraps around the main page content. This is then used
+ * to shift the entire page to the left to reveal the glossary search.
+ */
+.c-visible-page {
+  width: 100vw;
+}
+
+/* The active class is applied to '.c-visible-page' when '.js-glossary-toggle' or
+ * '.js-glossary-close' are clicked. See glossary.js for more details
+ */
+.c-visible-page.active {
+  margin-left: -90vw;
+  -webkit-transition: margin 0.1s; /* Safari */
+          transition: margin 0.1s;
+}
+
+  @media (min-width: 1000px) {
+    .c-visible-page {
+      width: 80vw;
+    }
+  }
+
+/* On small screens the glossary search is constantly waiting in the wings.
+ * On larger screens it is constantly visible.
+ */
+.c-glossary {
+  width: 90vw;
+  position: fixed;
+  height: 100vh;
+  background: var(--color-grey-light);
+  padding: 2em;
+}
+
+  @media (min-width: 1000px) {
+    .c-glossary {
+      width: 20vw;
+    }
+  }
