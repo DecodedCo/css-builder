@@ -1876,6 +1876,21 @@ td {
   }
 }
 /*
+ * Flexbox utility helper classes
+ *
+ */
+.u-flex--between {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+ }
+/*
  * Hide visually and from screen readers:
  * http://juicystudio.com/article/screen-readers-display-none.php
  */
@@ -2328,6 +2343,198 @@ hr {
     max-width: 60em;
     margin: 0 auto;
 }
+.u-page-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+}
+/*
+ * A container which identifies the visible stage, ready
+ * to be shifted to reveal offscreen navigation
+ */
+.c-visible-page {
+  width: 100vw;
+}
+.c-visible-page.active {
+  margin-left: -90vw;
+  -webkit-transition: margin 0.1s; /* Safari */
+          transition: margin 0.1s;
+}
+/*
+ * On small screens the aside which houses the glossary
+ * search is constantly waiting in the wings.
+ *
+ * On larger screens it is constantly visible.
+ *
+ */
+.c-aside {
+  width: 90vw;
+  position: fixed;
+  height: 100vh;
+  background: rgb(242,241,239);
+}
+/* vendor */
+/*! Pushy - v1.0.0 - 2016-3-1
+* Pushy is a responsive off-canvas navigation menu using CSS transforms & transitions.
+* https://github.com/christophery/pushy/
+* by Christopher Yee */
+/* Menu Appearance */
+.pushy {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  top: 0;
+  z-index: 9999;
+  background: #191918;
+  overflow: auto;
+  visibility: hidden;
+  -webkit-overflow-scrolling: touch;
+  /* enables momentum scrolling in iOS overflow elements */
+}
+.pushy a {
+  display: block;
+  color: #b3b3b1;
+  padding: 15px 30px;
+  text-decoration: none;
+  outline: 0;
+}
+.pushy a:hover {
+  color: #FFF;
+}
+.pushy ul:first-child {
+  margin-top: 10px;
+}
+.pushy.pushy-left {
+  left: 0;
+}
+.pushy.pushy-right {
+  right: 0;
+}
+/* Menu Movement */
+.pushy-left {
+  -webkit-transform: translate3d(-200px, 0, 0);
+  transform: translate3d(-200px, 0, 0);
+}
+.pushy-open-left #container,
+.pushy-open-left .push {
+  -webkit-transform: translate3d(200px, 0, 0);
+  transform: translate3d(200px, 0, 0);
+}
+.pushy-right {
+  -webkit-transform: translate3d(200px, 0, 0);
+  transform: translate3d(200px, 0, 0);
+}
+.pushy-open-right #container,
+.pushy-open-right .push {
+  -webkit-transform: translate3d(-200px, 0, 0);
+  transform: translate3d(-200px, 0, 0);
+}
+.pushy-open-left .pushy,
+.pushy-open-right .pushy {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+/* Menu Transitions */
+#container,
+.pushy,
+.push {
+  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+  transition: -webkit-transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+  transition: transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+  transition: transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99), -webkit-transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+}
+/* Site Overlay */
+.site-overlay {
+  display: none;
+}
+.pushy-open-left .site-overlay,
+.pushy-open-right .site-overlay {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9998;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-animation: fade 500ms;
+  animation: fade 500ms;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* Submenu Appearance */
+.pushy-submenu {
+  /* Submenu Icon */
+}
+.pushy-submenu ul {
+  padding-left: 15px;
+  -webkit-transition: max-height 0.2s ease-in-out;
+  transition: max-height 0.2s ease-in-out;
+}
+.pushy-submenu ul .pushy-link {
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+.pushy-submenu > a {
+  position: relative;
+}
+.pushy-submenu > a::after {
+  content: '';
+  display: block;
+  height: 11px;
+  width: 8px;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  background: url("../img/arrow.svg") no-repeat;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+/* Submenu Movement */
+.pushy-submenu-closed ul {
+  max-height: 0;
+  overflow: hidden;
+}
+.pushy-submenu-closed .pushy-link {
+  opacity: 0;
+}
+.pushy-submenu-open {
+  /* Submenu Icon */
+}
+.pushy-submenu-open ul {
+  max-height: 1000px;
+}
+.pushy-submenu-open .pushy-link {
+  opacity: 1;
+}
+.pushy-submenu-open a::after {
+  -webkit-transform: translateY(-50%) rotate(90deg);
+  transform: translateY(-50%) rotate(90deg);
+}
+.no-csstransforms3d .pushy-submenu-closed ul {
+  max-height: none;
+  display: none;
+}
+/*off-canvas nav*/
 /* components */
 .header-bar {
   width: 100%;
@@ -2349,8 +2556,7 @@ hr {
   height: 1.14rem;
 }
 .c-site-header {
-  position: fixed;
-  top: 0;
+
   width: 100%;
   z-index: 100;
 
@@ -2359,6 +2565,13 @@ hr {
   padding: 1rem;
   box-shadow: 1px 1px 1px rgb(242,241,239);
 
+}
+.c-site-header.sticky {
+   position: fixed;
+   top: 0;
+}
+.c-site-header h1 {
+  margin: 0;
 }
 .nav {
   padding: 0;
@@ -2550,4 +2763,14 @@ hr {
 */
 .c-cover-image--cover {
   background-size: cover;
+}
+.c-glossary-search {
+  width: 100%;
+  padding: 16px;
+  padding: 1rem;
+}
+.c-glossary-search-field {
+  width: 100%;
+  padding: 16px;
+  padding: 1rem;
 }

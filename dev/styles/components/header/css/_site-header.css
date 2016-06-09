@@ -1,6 +1,5 @@
 .c-site-header {
-  position: fixed;
-  top: 0;
+
   width: 100%;
   z-index: 100;
 
@@ -8,4 +7,13 @@
   padding: var(--scale-M)rem;
   box-shadow: 1px 1px 1px var(--color-grey-light);
 
+}
+
+.c-site-header.sticky {
+   position: fixed;
+   top: 0;
+}
+
+.c-site-header h1 {
+  margin: 0;
 }

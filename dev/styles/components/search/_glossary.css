@@ -1,0 +1,9 @@
+.c-glossary-search {
+  width: 100%;
+  padding: var(--scale-M)rem;
+}
+
+.c-glossary-search-field {
+  width: 100%;
+  padding: var(--scale-M)rem;
+}

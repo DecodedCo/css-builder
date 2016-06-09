@@ -9,3 +9,36 @@ hr {
     max-width: var(--max-width);
     margin: 0 auto;
 }
+
+.u-page-container {
+  display: flex;
+
+}
+
+/*
+ * A container which identifies the visible stage, ready
+ * to be shifted to reveal offscreen navigation
+ */
+.c-visible-page {
+  width: 100vw;
+}
+
+.c-visible-page.active {
+  margin-left: -90vw;
+  -webkit-transition: margin 0.1s; /* Safari */
+          transition: margin 0.1s;
+}
+
+/*
+ * On small screens the aside which houses the glossary
+ * search is constantly waiting in the wings.
+ *
+ * On larger screens it is constantly visible.
+ *
+ */
+.c-aside {
+  width: 90vw;
+  position: fixed;
+  height: 100vh;
+  background: var(--color-grey-light);
+}

@@ -1,4 +1,15 @@
 /*
+ * Flexbox utility helper classes
+ *
+ */
+
+ .u-flex--between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+/*
  * Hide visually and from screen readers:
  * http://juicystudio.com/article/screen-readers-display-none.php
  */
