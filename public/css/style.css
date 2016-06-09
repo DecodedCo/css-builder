@@ -3019,8 +3019,7 @@ td {
   z-index: 100;
 
   background: white;
-  padding: 16px;
-  padding: 1rem;
+  padding: 0.5em;
   box-shadow: 1px 1px 1px rgb(242,241,239);
 
 }
@@ -3028,6 +3027,7 @@ td {
 @media (min-width: 1000px) {
     .c-site-header {
       width: 80vw;
+      padding: 1rem;
     }
   }
 
@@ -3044,8 +3044,16 @@ td {
  */
 
 .c-site-header h1 {
+  font-size: 1em;
   margin: 0;
 }
+
+@media (min-width: 1000px) {
+    .c-site-header h1 {
+      font-size: 2em;
+      margin: 0;
+    }
+  }
 
 .c-card {
   border-radius: 2px 2px 0 0;

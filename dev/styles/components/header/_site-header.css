@@ -6,7 +6,7 @@
   z-index: 100;
 
   background: white;
-  padding: var(--scale-M)rem;
+  padding: 0.5em;
   box-shadow: 1px 1px 1px var(--color-grey-light);
 
 }
@@ -14,6 +14,7 @@
   @media (min-width: 1000px) {
     .c-site-header {
       width: 80vw;
+      padding: var(--scale-M)rem;
     }
   }
 
@@ -29,5 +30,13 @@
 /* Custom typography stylings in the header
  */
 .c-site-header h1 {
+  font-size: 1em;
   margin: 0;
 }
+
+  @media (min-width: 1000px) {
+    .c-site-header h1 {
+      font-size: 2em;
+      margin: 0;
+    }
+  }
