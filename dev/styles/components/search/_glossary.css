@@ -1,9 +1,23 @@
 .c-glossary-search {
   width: 100%;
-  padding: var(--scale-M)rem;
+  margin-bottom: var(--scale-XXL)rem;
+  display: flex;
+  align-items: center;
 }
+
+.c-glossary-close, .c-glossary-toggle {
+  display: block;
+}
+
+@media (min-width: 1000px) {
+  .c-glossary-close, .c-glossary-toggle {
+    display: none;
+  }
+}
+
 
 .c-glossary-search-field {
   width: 100%;
   padding: var(--scale-M)rem;
+  margin-right: var(--scale-M)rem;
 }

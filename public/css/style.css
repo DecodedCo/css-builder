@@ -2361,6 +2361,11 @@ hr {
   -webkit-transition: margin 0.1s; /* Safari */
           transition: margin 0.1s;
 }
+@media (min-width: 1000px) {
+    .c-visible-page {
+      width: 80vw;
+    }
+  }
 /*
  * On small screens the aside which houses the glossary
  * search is constantly waiting in the wings.
@@ -2373,7 +2378,13 @@ hr {
   position: fixed;
   height: 100vh;
   background: rgb(242,241,239);
+  padding: 2em;
 }
+@media (min-width: 1000px) {
+    .c-aside {
+      width: 20vw;
+    }
+  }
 /* vendor */
 /*! Pushy - v1.0.0 - 2016-3-1
 * Pushy is a responsive off-canvas navigation menu using CSS transforms & transitions.
@@ -2566,6 +2577,11 @@ hr {
   box-shadow: 1px 1px 1px rgb(242,241,239);
 
 }
+@media (min-width: 1000px) {
+    .c-site-header {
+      width: 80vw;
+    }
+  }
 .c-site-header.sticky {
    position: fixed;
    top: 0;
@@ -2766,11 +2782,52 @@ hr {
 }
 .c-glossary-search {
   width: 100%;
-  padding: 16px;
-  padding: 1rem;
+  margin-bottom: 36.8px;
+  margin-bottom: 2.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.c-glossary-close, .c-glossary-toggle {
+  display: block;
+}
+@media (min-width: 1000px) {
+  .c-glossary-close, .c-glossary-toggle {
+    display: none;
+  }
 }
 .c-glossary-search-field {
   width: 100%;
   padding: 16px;
   padding: 1rem;
+  margin-right: 16px;
+  margin-right: 1rem;
+}
+.autocomplete-suggestions {
+  border: 1px rgb(242,241,239) #999;
+  background: white;
+  overflow: auto;
+}
+.autocomplete-suggestion {
+  padding: 16px;
+  padding: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.autocomplete-selected {
+  background: rgba(242,241,239,.5);
+}
+.autocomplete-suggestions strong {
+  font-weight: normal;
+  color: #3399FF;
+}
+.autocomplete-group {
+  padding: 2px 5px;
+}
+.autocomplete-group strong {
+  display: block;
+  border-bottom: 1px solid #000;
 }

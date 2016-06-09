@@ -9,6 +9,14 @@
 
 }
 
+  @media (min-width: 1000px) {
+    .c-site-header {
+      width: 80vw;
+    }
+  }
+
+
+
 .c-site-header.sticky {
    position: fixed;
    top: 0;

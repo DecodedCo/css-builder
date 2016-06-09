@@ -29,6 +29,12 @@ hr {
           transition: margin 0.1s;
 }
 
+  @media (min-width: 1000px) {
+    .c-visible-page {
+      width: 80vw;
+    }
+  }
+
 /*
  * On small screens the aside which houses the glossary
  * search is constantly waiting in the wings.
@@ -41,4 +47,14 @@ hr {
   position: fixed;
   height: 100vh;
   background: var(--color-grey-light);
+  padding: 2em;
 }
+
+  @media (min-width: 1000px) {
+    .c-aside {
+      width: 20vw;
+    }
+  }
+
+
+
