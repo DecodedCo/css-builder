@@ -2546,6 +2546,27 @@ hr {
   display: none;
 }
 /*off-canvas nav*/
+.pushy {
+  background: rgb(37,37,37);
+}
+.pushy h3 {
+    font-size: 1em;
+    text-align: center;
+}
+.pushy ol:first-child {
+    margin-top: 0;
+}
+.c-pushy-menu-list {
+    width: 100%;
+    padding-left: 2em;
+    list-style-type: decimal;
+    list-style-type: decimal;
+    color: rgb(186,184,176);
+}
+.c-back-link {
+  background: black;
+  text-align: center;
+}
 /* components */
 .header-bar {
   width: 100%;

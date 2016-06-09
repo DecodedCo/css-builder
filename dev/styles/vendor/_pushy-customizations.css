@@ -1,0 +1,25 @@
+.pushy {
+  background: var(--color-grey-darker);
+}
+
+.pushy h3 {
+    font-size: 1em;
+    text-align: center;
+}
+
+.pushy ol:first-child {
+    margin-top: 0;
+}
+
+.c-pushy-menu-list {
+    width: 100%;
+    padding-left: 2em;
+    list-style-type: decimal;
+    list-style-type: decimal;
+    color: var(--color-grey-medium);
+}
+
+.c-back-link {
+  background: black;
+  text-align: center;
+}

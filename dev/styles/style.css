@@ -12,6 +12,7 @@
 
 /* vendor */
 @import "vendor/_pushy.css"; /*off-canvas nav*/
+@import "vendor/_pushy-customizations.css";
 
 /* components */
 @import "./components/index.css";
